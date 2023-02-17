@@ -1,0 +1,112 @@
+[
+  {
+    "navn": "Margarita",
+    "spiritus": "Tequila",
+    "ingredienser": ["4 cl tequila", "2 cl limesaft", "1 cl appelsinsaft", "1 tsk sukker", "isterninger"],
+    "beskrivelse": "En frisk og syrlig cocktail med tequila, limesaft og appelsinsaft.",
+    "fremgangsmetode": "Tilsæt alle ingredienserne i en shaker med is. Ryst godt og hæld i et glas med isterninger.",
+    "alkoholisk": true,
+    "billede": "img/margarita.webp"
+  },
+  {
+    "navn": "Cosmopolitan",
+    "spiritus": "Vodka",
+    "ingredienser": ["4 cl vodka", "2 cl tranebærjuice", "1 cl appelsinsaft", "1 cl limejuice", "1 cl sukkerlage", "isterninger"],
+    "beskrivelse": "En sød og syrlig cocktail med vodka og frugtsaft.",
+    "fremgangsmetode": "Tilsæt alle ingredienserne i en shaker med is. Ryst godt og hæld i et cocktailglas.",
+    "alkoholisk": true,
+    "billede": "img/cosmopolitan.webp"
+  },
+  {
+    "navn": "Pina Colada",
+    "spiritus": "Rom",
+    "ingredienser": ["4 cl lys rom", "2 cl kokosmælk", "6 cl ananasjuice", "1 cl sukkerlage", "isterninger"],
+    "beskrivelse": "En sød og tropisk cocktail med rom, kokosmælk og ananasjuice.",
+    "fremgangsmetode": "Tilsæt alle ingredienserne i en blender med is. Blend indtil drikken er glat og server i et stort glas.",
+    "alkoholisk": true,
+    "billede": "img/pinaColada.webp"
+  },
+  {
+    "navn": "Mai Tai",
+    "spiritus": "Rom",
+    "ingredienser": ["4 cl mørk rom", "2 cl lys rom", "2 cl appelsinlikør", "1 cl limesaft", "1 cl amaretto", "isterninger"],
+    "beskrivelse": "En tiki-inspireret cocktail med rom, appelsinlikør og mandellikør.",
+    "fremgangsmetode": "Tilsæt alle ingredienserne i en shaker med is. Ryst godt og hæld i et glas med isterninger.",
+    "alkoholisk": true,
+    "billede": "img/maiTai.webp"
+  },
+
+  {
+    "navn": "Virgin Mary",
+    "spiritus": "",
+    "ingredienser": ["12 cl tomatjuice", "1 cl worcestershire sauce", "1 cl tabasco", "1/2 cl limesaft", "isterninger", "1 stængel selleri"],
+    "beskrivelse": "En alkoholfri version af den kendte Bloody Mary med tomatjuice og krydderier.",
+    "fremgangsmetode": "Tilsæt tomatjuice, worcestershire sauce, tabasco og limesaft i et glas med isterninger. Rør godt rundt og pynt med en stængel selleri.",
+    "alkoholisk": false,
+    "billede": "img/maryFri.webp"
+  },
+  {
+    "navn": "Mojito",
+    "spiritus": "Rom",
+    "ingredienser": ["4 cl lys rom", "2 cl limesaft", "2 tsk sukker", "8-10 mynteblade", "sodavand", "knust is"],
+    "beskrivelse": "En frisk og læskende cocktail med rom, mynte og lime.",
+    "fremgangsmetode": "Pluk mynteblade og kom dem i et glas med sukker og limesaft. Brug en morter til at mase bladene sammen med sukkeret og limesaften. Tilsæt rom, sodavand og isterninger. Rør godt rundt og pynt med en skive lime og et par mynteblade.",
+    "alkoholisk": true,
+    "billede": "img/mojito.webp"
+  },
+  {
+    "navn": "Piña Colada Mocktail",
+    "spiritus": "",
+    "ingredienser": ["4 cl ananasjuice", "2 cl kokosmælk", "2 cl fløde", "1 cl sukkerlage", "knust is", "ananas og kokosnød til pynt"],
+    "beskrivelse": "En tropisk og cremet cocktail uden alkohol.",
+    "fremgangsmetode": "Tilsæt alle ingredienserne i en blender med is. Blend indtil drikken er glat og server i et glas. Pynt med ananas og kokosnød.",
+    "alkoholisk": false,
+    "billede": "img/pinaColadaFri.webp"
+  },
+  {
+    "navn": "White Russian",
+    "spiritus": "Vodka",
+    "ingredienser": ["2 cl vodka", "2 cl kaffelikør", "2 cl fløde", "isterninger"],
+    "beskrivelse": "En sød og cremet cocktail med vodka og kaffelikør.",
+    "fremgangsmetode": "Tilsæt alle ingredienserne i en shaker med is. Ryst godt og hæld i et glas med isterninger.",
+    "alkoholisk": true,
+    "billede": "img/whiteRussian.webp"
+  },
+
+  {
+    "navn": "Frosé",
+    "spiritus": "Rosévin",
+    "ingredienser": ["1 flaske rosévin", "1 dl sukkerlage", "1 dl jordbærpuré", "1/2 dl citronsaft", "isterninger"],
+    "beskrivelse": "En forfriskende frossen drink med rosévin, jordbær og citron.",
+    "fremgangsmetode": "Hæld rosévin i en fryseegnet beholder og frys det i mindst 6 timer. Tilsæt derefter sukkerlage, jordbærpuré og citronsaft i en blender sammen med det frosne rosévin og isterninger. Blend indtil drikken er glat og server i et glas.",
+    "alkoholisk": true,
+    "billede": "img/frose.webp"
+  },
+  {
+    "navn": "Moscow Mule",
+    "spiritus": "Vodka",
+    "ingredienser": ["4 cl vodka", "1/2 lime, saften heraf", "12 cl ingefærøl", "isterninger", "mynteblade til pynt"],
+    "beskrivelse": "En klassisk cocktail med vodka, lime og ingefærøl.",
+    "fremgangsmetode": "Tilsæt vodka og limesaft i et glas med isterninger. Tilsæt ingefærøl og rør godt rundt. Pynt med et par mynteblade.",
+    "alkoholisk": true,
+    "billede": "img/moscowMule.webp"
+  },
+  {
+    "navn": "Hindbær-Mojito",
+    "spiritus": "",
+    "ingredienser": ["4 cl hindbærsaft", "2 cl limesaft", "1 tsk sukker", "10 mynteblade", "sodavand", "knust is", "hindbær og mynteblade til pynt"],
+    "beskrivelse": "En frisk og sommerlig drink med hindbær, lime og mynte.",
+    "fremgangsmetode": "Pluk mynteblade og kom dem i et glas med sukker og limesaft. Brug en morter til at mase bladene sammen med sukkeret og limesaften. Tilsæt hindbærsaft, sodavand og isterninger. Rør godt rundt og pynt med hindbær og et par mynteblade.",
+    "alkoholisk": false,
+    "billede": "img/hindMojito.webp"
+  },
+  {
+    "navn": "Gin & Tonic",
+    "spiritus": "Gin",
+    "ingredienser": ["4 cl gin", "12 cl tonic", "isterninger", "lime eller agurk til pynt"],
+    "beskrivelse": "En klassisk drink med gin og tonic.",
+    "fremgangsmetode": "Tilsæt gin i et glas med isterninger. Tilsæt tonic og rør godt rundt. Pynt med en skive lime eller agurk.",
+    "alkoholisk": true,
+    "billede": "img/ginTonic.webp"
+  }
+]

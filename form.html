@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>Drinks form</H1>
+    <form name="drinks" netlify>
+  
+  <div class="form-felt">
+    <label for="navn">Drink navn</label>
+    <input type="text" id="navn" name="navn" required>
+  </div>
+
+  <div class="form-felt">
+    <label for="spiritus">Spiritus</label>
+    <input type="text" id="spiritus" name="spiritus" required>
+  </div>
+  
+  <div>
+    <p>Indholder drinken alkohol</p>
+    <input type="radio" id="alcohol-yes" name="alcohol" value="true" required>
+    <label for="alcohol-yes">Ja</label>
+
+    <input type="radio" id="alcohol-no" name="alcohol" value="false">
+    <label for="alcohol-no">Nej</label><br/>
+  </div>
+
+  <div class="form-felt">
+    <label for="taste">Smag</label>
+    <input type="text" id="taste" name="taste" required>
+  </div>
+
+  <div class="form-felt">
+    <label for="time">Tid</label>
+    <input type="number" id="time" name="time" required>
+  </div>
+
+  <div class="form-felt">
+    <label for="description">Beskrivelse</label>
+    <textarea type="text" id="description" name="description" required></textarea>
+  </div>
+
+
+  
+  <button type="submit">Indsend</button>
+  
+</form>
+    
+</body>
+</html>

@@ -8,47 +8,50 @@
 </head>
 <body>
     <H1>Drinks form</H1>
-    <form name="drinks" >
-  
-  <div class="form-felt">
-    <label for="navn">Drink navn</label>
-    <input type="text" id="navn" name="navn" required>
-  </div>
+      <form name="drinks" id="drinkForm" >
+        
+          <div class="form-felt">
+            <label for="navn">Drink navn</label>
+            <input type="text" id="navn" name="navn" required>
+          </div>
 
-  <div class="form-felt">
-    <label for="spiritus">Spiritus</label>
-    <input type="text" id="spiritus" name="spiritus" required>
-  </div>
-  
-  <div>
-    <p>Indholder drinken alkohol</p>
-    <input type="radio" id="alcohol-yes" name="alcohol" value="true" required>
-    <label for="alcohol-yes">Ja</label>
+          <div class="form-felt">
+            <label for="spiritus">Spiritus</label>
+            <input type="text" id="spiritus" name="spiritus" required>
+          </div>
+        
+          <div>
+            <p>Indholder drinken alkohol</p>
+            <input type="radio" id="alcohol-yes" name="alcohol" value="true" required>
+            <label for="alcohol-yes">Ja</label>
 
-    <input type="radio" id="alcohol-no" name="alcohol" value="false">
-    <label for="alcohol-no">Nej</label><br/>
-  </div>
+            <input type="radio" id="alcohol-no" name="alcohol" value="false">
+            <label for="alcohol-no">Nej</label><br/>
+          </div>
 
-  <div class="form-felt">
-    <label for="taste">Smag</label>
-    <input type="text" id="taste" name="taste" required>
-  </div>
+          <div class="form-felt">
+            <label for="taste">Smag</label>
+            <input type="text" id="taste" name="taste" required>
+          </div>
 
-  <div class="form-felt">
-    <label for="time">Tid</label>
-    <input type="number" id="time" name="time" required>
-  </div>
+          <div class="form-felt">
+            <label for="time">Tid</label>
+            <input type="number" id="time" name="time" required>
+          </div>
 
-  <div class="form-felt">
-    <label for="description">Beskrivelse</label>
-    <textarea type="text" id="description" name="description" required></textarea>
-  </div>
+          <div class="form-felt">
+            <label for="description">Beskrivelse</label>
+            <textarea type="text" id="description" name="description" required></textarea>
+          </div>
 
 
-  
-  <button type="submit">Indsend</button>
-  
-</form>
+        
+          <button type="submit">Indsend</button>
+        
+      </form>
+
+
+
     <script src="form.js"></script>
 </body>
 </html>

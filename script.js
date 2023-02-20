@@ -8,5 +8,5 @@ fetch("https://drinks-df78.restdb.io/rest/drinks", {
     .then(dosomethin);
 
     function dosomethin(data){
-        console.log(data[0].spiritus);
+        console.log(data);
     }

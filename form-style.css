@@ -1,0 +1,12 @@
+body{
+    background-color: #1e1e1e;
+}
+
+p,h1,h2,h3,h4,label{
+    color:#d1114d;
+}
+
+.main-form{
+    margin-inline: auto;
+    width: 400px;
+}

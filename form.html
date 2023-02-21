@@ -11,16 +11,64 @@
       <form name="drinks" id="drinkForm" >
         
           <div class="form-felt">
-            <label for="navn">Drink navn</label>
-            <input type="text" id="navn" name="navn" required>
+            <label for="name">Drink navn</label>
+            <input type="text" id="navn" name="name" >
           </div>
 
           <div class="form-felt">
             <label for="spiritus">Spiritus</label>
-            <input type="text" id="spiritus" name="spiritus" required>
+            <input type="text" id="spiritus" name="spiritus">
           </div>
+
+          <div class="form-felt">
+            <p>er drinken alkoholfri</p>
+            <input type="radio" name="alkohol" value="true">
+            <label for="alkohol">ja</label>
+
+            <input type="radio" name="alkohol" value="false">
+            <label for="alkohol">nej</label>
+          </div>
+
+          <div class="form-felt">
+            
+            <input type="checkbox" name="taste" value="sylig" class="checktaste">
+            <label for="taste">syrlig</label>
+
+            <input type="checkbox" name="taste" value="sod" class="checktaste">
+            <label for="taste">sød</label>
+
+            <input type="checkbox" name="taste" value="bitter" class="checktaste">
+            <label for="taste">bitter</label>
+
+            <input type="checkbox" name="taste" value="krydret" class="checktaste">
+            <label for="taste">krydret</label>
+
+            <input type="checkbox" name="taste" value="staerk" class="checktaste">
+            <label for="taste">staerk</label>
+          </div>
+
+          <div class="form-felt">
+            <label for="time">tid</label>
+            <input type="number" id="time" name="time">
+          </div>
+
+          <div class="form-felt">
+            <label for="description">beskrivelse</label>
+            <textarea type="text" name="description" ></textarea>
+          </div>
+
+          <div class="form-felt">
+            <label for="ingredients">indgredienser</label>
+            <input type="text"  name="ingredients">
+          </div>
+
+          <div class="form-felt">
+            <label for="make">fremgangsmåde</label>
+            <textarea type="text"  name="make"></textarea>
+          </div>
+
         
-          <div>
+          <!-- <div>
             <p>Indholder drinken alkohol</p>
             <input type="radio" id="alcohol-yes" name="alcohol" value="true" required>
             <label for="alcohol-yes">Ja</label>
@@ -42,7 +90,7 @@
           <div class="form-felt">
             <label for="description">Beskrivelse</label>
             <textarea type="text" id="description" name="description" required></textarea>
-          </div>
+          </div> -->
 
 
         

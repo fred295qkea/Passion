@@ -1,0 +1,37 @@
+body {
+  background-color: #1e1e1e;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.ui-card {
+  background-color: #363636;
+  aspect-ratio: 5/6;
+  width: 25%;
+}
+
+.product-pic {
+  background-image: url("gintonic.jpg");
+  aspect-ratio: 1/1;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.product-name {
+  color: #d1114d;
+  text-align: center;
+}
+
+.product-smag {
+  color: #1e1e1e;
+  background-color: #d1114d;
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 10px;
+  aspect-ratio: 10/1;
+}

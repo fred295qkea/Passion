@@ -38,6 +38,7 @@ img {
   background-size: cover;
   display: flex;
   align-items: flex-end;
+  background-position: center;
 }
 
 .smag-container {

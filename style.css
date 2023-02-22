@@ -24,3 +24,27 @@ li,
 a {
   font-family: Verdana, sans-serif;
 }
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1100px;
+  margin-inline: auto;
+}
+.menu-container {
+  background: var(--bg-main-color);
+  border-bottom: 3px solid var(--sexy-pink);
+}
+
+.main-menu nav a {
+  padding: 25px;
+
+  display: inline-block;
+  color: var(--sexy-pink);
+  text-decoration: none;
+}
+.logo img {
+  height: 50px;
+  margin-top: 10px;
+}

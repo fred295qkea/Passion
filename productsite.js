@@ -35,6 +35,12 @@ function showProducts(data) {
     copy.querySelector(".alkoholfri").textContent = "";
   }
 
+  //   copy.querySelector(".ui-card").onClick = "location.href='product-page.html?q=name:'+ data.name";
+
+  copy.querySelector(".ui-card").addEventListener("click", function () {
+    location.href = "product-page.html?q:name=" + data.name;
+  });
+
   copy.querySelector(".product-name").textContent = data.name;
   document.querySelector(".products").appendChild(copy);
 }

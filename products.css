@@ -1,5 +1,7 @@
 body {
   background-color: var(--bg-main-color);
+  max-width: 1600px;
+  margin-inline: auto;
 }
 
 img {
@@ -7,34 +9,75 @@ img {
   display: block;
 }
 
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
 .ui-card {
   background-color: var(--bg-light-color);
   aspect-ratio: 5/6;
-  width: 25%;
+  width: 400px;
+  border: var(--bg-main-color) 2px solid;
+}
+
+.ui-card:hover {
+  border: var(--text-color) 2px solid;
+}
+
+.ui-card:active {
+  border: var(--sexy-pink) 2px solid;
 }
 
 .product-pic {
-  background-image: url("gintonic.jpg");
+  background-image: url("img/bramble.webp");
   aspect-ratio: 1/1;
   background-size: cover;
   display: flex;
+  align-items: flex-end;
+}
+
+.smag-container {
+  display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 23%;
+  width: 100%;
 }
 
 .product-name {
   color: var(--sexy-pink);
-  text-align: center;
+
   font-family: var(--main-font);
   font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .product-smag {
   color: var(--bg-main-color);
   background-color: var(--sexy-pink);
   text-align: center;
-  padding: 10px 30px;
+  padding: 10px 0px;
   border-radius: 10px;
-  aspect-ratio: 10/1;
+  aspect-ratio: 6/1;
+  width: 100px;
   font-family: var(--main-font);
+  margin: 0px 5px;
+}
+
+.product-smag:last-child {
+  margin-right: 0px;
+}
+
+.alkoholfri {
+  color: var(--text-color);
+  text-align: center;
+  margin-top: 7px;
 }

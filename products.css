@@ -9,6 +9,12 @@ img {
   display: block;
 }
 
+.listH {
+  text-align: center;
+  color: var(--sexy-pink);
+  font-size: 4rem;
+}
+
 .products {
   display: flex;
   flex-direction: row;

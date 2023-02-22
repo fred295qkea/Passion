@@ -3,10 +3,32 @@ body{
 }
 
 p,h1,h2,h3,h4,label{
-    color:#d1114d;
+    font-family: Verdana, sans-serif;
+    color:var(--sexy-pink);
 }
 
 .main-form{
     margin-inline: auto;
+    margin-top: 50px;
     width: 400px;
+}
+
+.form-felt{
+    margin-top: 10px;
+}
+
+.form-felt input[type="text"],.form-felt input[type="number"], .form-felt textarea  {
+    height: 20px;
+    border: 2px solid var(--sexy-pink);
+    background-color: var(--bg-light-color);
+    color:white
+}
+
+.submit-button{
+    background: var(--sexy-pink);
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
 }

@@ -1,0 +1,84 @@
+body{
+    background-color: var(--bg-main-color);
+}
+
+h1,h2,p,li{
+    color:var(--sexy-pink)
+}
+
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    
+    max-width: 1100px;
+    margin-inline: auto;
+    
+}
+.menu-container{
+    background: var(--bg-main-color);
+    border-bottom: 3px solid var(--sexy-pink);
+
+}
+
+.main-menu nav a{
+    padding:  25px;
+
+    display: inline-block;
+    color:var(--sexy-pink);
+    text-decoration: none;
+}
+.logo img{
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+
+main{
+    max-width: 1100px;
+    margin-inline: auto;
+    /* border: 1px solid var(--sexy-pink); */
+    height: 900px;
+    margin-top: 50px;
+}
+
+.drink-container{
+    display: flex;
+
+}
+
+.img-container{
+    width: 50%;
+}
+.img-container img{
+    width: 100%;
+}
+
+.content-container{
+    width: 50%;
+}
+
+.header-container {
+    text-align: center;
+}
+
+.main-content-container{
+    margin: 40px 40px;
+}
+
+.main-content-container p{
+margin-bottom: 20px;
+}
+
+.ingredienser-container{
+    border-top: 1px solid var(--sexy-pink);
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+ul, ol{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+

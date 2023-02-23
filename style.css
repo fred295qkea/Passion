@@ -48,3 +48,27 @@ a {
   height: 50px;
   margin-top: 10px;
 }
+
+footer {
+  border-top: 2px var(--sexy-pink) solid;
+}
+
+.footflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footflex li {
+  list-style-type: none;
+  color: var(--text-color);
+  margin: 40px;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 800px) {
+  .footflex li {
+    margin: 10px 40px;
+  }
+}

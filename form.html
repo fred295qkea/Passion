@@ -1,88 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="form-style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inika:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="form-style.css">
+  <title>Document</title>
 </head>
+
 <body>
+  <div class="menu-container">
+    <header class="main-menu">
+      <div>
+        <div class="logo">
+          <a href="index.html"><img src="img/Passion-logo-white.svg" alt="Logo"></a>
+        </div>
+      </div>
+      <div>
+        <nav>
+          <a href="productSite.html">Drinks</a>
+          <a href="form.html">Tilføj drink</a>
+          <a href="om-os.html">Om os</a>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+
+
   <div class="main-form">
     <H1>Tilføj en drink</H1>
-    <form name="drinks" id="drinkForm" >
-      
-        <div class="form-felt">
-          <label for="name">Drink navn</label><br>
-          <input type="text" id="navn" name="name" >
-        </div>
+    <form name="drinks" id="drinkForm">
 
-        <div class="form-felt">
-          <label for="spiritus">Spiritus </label><br>
-          <p>(komma mellem hver spiritus eks:"Vodka,Rom" )</p>
-          <input type="text" id="spiritus" name="spiritus">
-        </div>
+      <div class="form-felt">
+        <label for="name">Drink navn</label><br>
+        <input type="text" id="navn" name="name">
+      </div>
 
-        <div class="form-felt">
-          <p>Er drinken alkoholfri</p>
-          <input type="radio" name="alkohol" value="true">
-          <label for="alkohol">ja</label>
+      <div class="form-felt">
+        <label for="spiritus">Spiritus </label><br>
+        <p>(komma mellem hver spiritus eks:"Vodka,Rom" )</p>
+        <input type="text" id="spiritus" name="spiritus">
+      </div>
 
-          <input type="radio" name="alkohol" value="false">
-          <label for="alkohol">nej</label>
-        </div><br>
+      <div class="form-felt">
+        <p>Er drinken alkoholfri</p>
+        <input type="radio" name="alkohol" value="true">
+        <label for="alkohol">ja</label>
 
-        <div class="form-felt">
-          
-          <input type="checkbox" name="taste" value="sylig" class="checktaste">
-          <label for="taste">syrlig</label>
+        <input type="radio" name="alkohol" value="false">
+        <label for="alkohol">nej</label>
+      </div><br>
 
-          <input type="checkbox" name="taste" value="sod" class="checktaste">
-          <label for="taste">sød</label>
+      <div class="form-felt">
 
-          <input type="checkbox" name="taste" value="bitter" class="checktaste">
-          <label for="taste">bitter</label>
+        <input type="checkbox" name="taste" value="sylig" class="checktaste">
+        <label for="taste">syrlig</label>
 
-          <input type="checkbox" name="taste" value="krydret" class="checktaste">
-          <label for="taste">krydret</label>
+        <input type="checkbox" name="taste" value="sod" class="checktaste">
+        <label for="taste">sød</label>
 
-          <input type="checkbox" name="taste" value="staerk" class="checktaste">
-          <label for="taste">staerk</label>
-        </div> <br>
+        <input type="checkbox" name="taste" value="bitter" class="checktaste">
+        <label for="taste">bitter</label>
 
-        <div class="form-felt">
-          <label for="time">tid</label> <br>
-          <input type="number" id="time" name="time">
-        </div> 
+        <input type="checkbox" name="taste" value="krydret" class="checktaste">
+        <label for="taste">krydret</label>
 
-        <div class="form-felt">
-          <label for="description">beskrivelse</label><br>
-          <textarea type="text" name="description" ></textarea>
-        </div> 
+        <input type="checkbox" name="taste" value="staerk" class="checktaste">
+        <label for="taste">staerk</label>
+      </div> <br>
 
-        <div class="form-felt">
-          <label for="ingredients">indgredienser</label><br>
-          <p>(komma mellem hver indgrediens eks:"Cola,Sukker" )</p>
-          <input type="text"  name="ingredients">
-        </div> 
+      <div class="form-felt">
+        <label for="time">tid</label> <br>
+        <input type="number" id="time" name="time">
+      </div>
 
-        <div class="form-felt">
-          <label for="make">fremgangsmåde</label><br>
-          <textarea type="text"  name="make"></textarea>
-        </div>   
-        <div class="form-felt">
+      <div class="form-felt">
+        <label for="description">beskrivelse</label><br>
+        <textarea type="text" name="description"></textarea>
+      </div>
+
+      <div class="form-felt">
+        <label for="ingredients">indgredienser</label><br>
+        <p>(komma mellem hver indgrediens eks:"Cola,Sukker" )</p>
+        <input type="text" name="ingredients">
+      </div>
+
+      <div class="form-felt">
+        <label for="make">fremgangsmåde</label><br>
+        <textarea type="text" name="make"></textarea>
+      </div>
+      <div class="form-felt">
         <button class="submit-button" type="submit">Indsend</button>
-        </div>
+      </div>
     </form>
 
 
   </div>
-   
+
+  <footer>
+
+    <ul class="footflex">
+      <li>Drinks passion</li>
+      <li>Frederik Jensen og Casper Bisgaard</li>
+      <li>Passion opgave</li>
+    </ul>
+  </footer>
 
 
 
-    <script src="form.js"></script>
+  <script src="form.js"></script>
 </body>
+
 </html>

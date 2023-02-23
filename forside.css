@@ -160,13 +160,6 @@ img {
   font-size: 1.5rem;
 }
 
-@media (max-width: 800px) {
-  .blobTekst {
-    font-size: 1rem;
-    max-width: 250px;
-  }
-}
-
 @media (max-width: 1400px) {
   .blobTekst {
     font-size: 1.2rem;
@@ -178,5 +171,9 @@ img {
   .blobTekst {
     font-size: 0.8rem;
     max-width: 200px;
+  }
+
+  .footflex li {
+    margin: 10px 40px;
   }
 }

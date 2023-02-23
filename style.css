@@ -50,7 +50,6 @@ a {
   margin-left: 20px;
 }
 
-<<<<<<< HEAD
 footer {
   border-top: 2px var(--sexy-pink) solid;
 }
@@ -74,11 +73,10 @@ footer {
     margin: 10px 40px;
   }
 }
-=======
-.mobile-burger{
+.mobile-burger {
   padding: 20px;
 }
-.mobile-burger span{
+.mobile-burger span {
   display: block;
   width: 29px;
   height: 2px;
@@ -87,7 +85,7 @@ footer {
   background: var(--sexy-pink);
   border-radius: 3px;
 }
-.main-menu nav{
+.main-menu nav {
   display: none;
 }
 
@@ -99,12 +97,11 @@ footer {
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   transition: transform 0.5s;
-  
 }
-body .mobile-menu-toggle{
+body .mobile-menu-toggle {
   transform: translate(0%, 0);
 }
-.mobile-menu nav{
+.mobile-menu nav {
   margin: 20px;
 }
 .mobile-menu a {
@@ -115,30 +112,24 @@ body .mobile-menu-toggle{
   border-bottom: 2px solid var(--bg-main-color);
 }
 
-
-
-
-
 @media only screen and (min-width: 768px) {
-  .mobile-burger{
+  .mobile-burger {
     display: none;
   }
-  .mobile-menu{
+  .mobile-menu {
     display: none;
   }
-  .main-menu nav{
+  .main-menu nav {
     display: block;
   }
-
 }
-.sort-container{
+.sort-container {
   text-align: center;
 }
-.sort{
+.sort {
   padding: 5px 10px;
   border-radius: 15px;
   background-color: var(--sexy-pink);
   text-decoration: none;
   color: var(--text-color);
 }
->>>>>>> origin/get-shit-done

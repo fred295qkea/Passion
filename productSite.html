@@ -15,62 +15,67 @@
 </head>
 
 <body>
-    <header>
-        <div class="menu-container">
-            <header class="main-menu">
-                <div>
-                    <div class="logo">
-                        <a href="index.html"><img src="img/Passion-logo-white.svg" alt="Logo"></a>
-                    </div>
+    <div class="menu-container">
+        <header class="main-menu">
+            <div>
+                <div class="logo">
+                    <img src="img/Passion-logo-white.svg" alt="">
                 </div>
-                <div>
-                    <nav>
-                        <a href="productSite.html">Drinks</a>
-                        <a href="form.html">Tilføj drink</a>
-                    </nav>
+            </div>
+            <div>
+                <nav>
+                    <a href="/">Forside</a>
+                    <a href="productSite.html">Drinks</a>
+                    <a href="form.html">Tilføj drink</a>
+                </nav>
+                <div class="mobile-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
-            </header>
+            </div>
+        </header>
+    </div>
+    <main>
+        <h1 class="listH">Drinks</h1>
+        <div class="products">
         </div>
         <main>
-            <h1 class="listH">Drinks</h1>
-            <div class="products">
+            <div class="sort-container">
+                <a href="productSite.html?id=Syrlig" class="sort">Syrlig</a>
+                <a href="productSite.html?id=Frugtig" class="sort">Frugtig</a>
+                <a href="productSite.html?id=Stærk" class="sort">Stærk</a>
+                <a href="productSite.html?id=Krydret" class="sort">Krydret</a>
+                <a href="productSite.html?id=Sød" class="sort">Sød</a>
+
+
             </div>
-            <main>
-                <div class="sort-container">
-                    <a href="productSite.html?id=Syrlig" class="sort">Syrlig</a>
-                    <a href="productSite.html?id=Frugtig" class="sort">Frugtig</a>
-                    <a href="productSite.html?id=Stærk" class="sort">Stærk</a>
-                    <a href="productSite.html?id=Krydret" class="sort">Krydret</a>
-                    <a href="productSite.html?id=Sød" class="sort">Sød</a>
+
+            <div class="products">
 
 
-                </div>
-
-                <div class="products">
-
-
-                    <template class="productTemplate">
-                        <div class="ui-card">
-                            <div class="product-pic">
-                                <div class="smag-container">
-                                </div>
+                <template class="productTemplate">
+                    <div class="ui-card">
+                        <div class="product-pic">
+                            <div class="smag-container">
                             </div>
-                            <h3 class="product-name">Gin</h3>
-                            <h4 class="alkoholfri">xxx</h4>
                         </div>
-                    </template>
-                </div>
+                        <h3 class="product-name">Gin</h3>
+                        <h4 class="alkoholfri">xxx</h4>
+                    </div>
+                </template>
+            </div>
 
-            </main>
-            <footer>
+        </main>
+        <footer>
 
-                <ul class="footflex">
-                    <li>Drinks passion</li>
-                    <li>Frederik Jensen og Casper Bisgaard</li>
-                    <li>Passion opgave</li>
-                </ul>
-            </footer>
-            <script src="productsite.js"></script>
+            <ul class="footflex">
+                <li>Drinks passion</li>
+                <li>Frederik Jensen og Casper Bisgaard</li>
+                <li>Passion opgave</li>
+            </ul>
+        </footer>
+        <script src="productsite.js"></script>
 </body>
 
 </html>

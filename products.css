@@ -1,5 +1,8 @@
 body {
   background-color: var(--bg-main-color);
+}
+
+main {
   max-width: 1600px;
   margin-inline: auto;
 }

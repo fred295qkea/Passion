@@ -47,4 +47,72 @@ a {
 .logo img {
   height: 50px;
   margin-top: 10px;
+  margin-left: 20px;
+}
+
+.mobile-burger{
+  padding: 20px;
+}
+.mobile-burger span{
+  display: block;
+  width: 29px;
+  height: 2px;
+  margin-bottom: 5px;
+  position: relative;
+  background: var(--sexy-pink);
+  border-radius: 3px;
+}
+.main-menu nav{
+  display: none;
+}
+
+.mobile-menu {
+  width: 80%;
+  height: 800px;
+  background-color: var(--sexy-pink);
+  position: absolute;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s;
+  
+}
+body .mobile-menu-toggle{
+  transform: translate(0%, 0);
+}
+.mobile-menu nav{
+  margin: 20px;
+}
+.mobile-menu a {
+  display: block;
+  padding: 15px 5px;
+  text-decoration: none;
+  color: var(--bg-main-color);
+  border-bottom: 2px solid var(--bg-main-color);
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+  .mobile-burger{
+    display: none;
+  }
+  .mobile-menu{
+    display: none;
+  }
+  .main-menu nav{
+    display: block;
+  }
+
+}
+.sort-container{
+  text-align: center;
+}
+.sort{
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: var(--sexy-pink);
+  text-decoration: none;
+  color: var(--text-color);
 }

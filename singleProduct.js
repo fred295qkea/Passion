@@ -1,7 +1,11 @@
 const urlParams = new URLSearchParams(window.location.search);
-const id = urlParams.get("name");
 
-fetch(`https://drinks-df78.restdb.io/rest/drinks?q:name=`, {
+console.log(urlParams);
+const id = urlParams.get("id");
+
+console.log("her er id:"+id);
+
+fetch(`https://drinks-df78.restdb.io/rest/drinks?q={"name": "${id}"}`, {
   method: "get",
   headers: {
     "x-api-key": "63ef53be478852088da683cf",

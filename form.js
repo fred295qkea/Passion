@@ -46,6 +46,7 @@
         const ingredientsarray = useringredients.split(",");
 
         const usermake = form.elements.make.value;
+        const usermakearray = usermake.split(",");
         
         
         
@@ -57,9 +58,10 @@
              tid:usertime,
              beskrivelse: userdescription,
              ingredienser: ingredientsarray,
-             fremgangsmåde:usermake,
+             fremgangsmåde:usermakearray,
 
          }
+         console.log(myData);
 
          fetch("https://drinks-df78.restdb.io/rest/drinks", {
             method: "post",

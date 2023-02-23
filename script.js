@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var tæl = 0;
 
 fetch("https://drinks-df78.restdb.io/rest/drinks", {
@@ -51,3 +52,10 @@ function showProducts(data) {
     console.log("tæl er over 3");
   }
 }
+=======
+document.querySelector(".mobile-burger").addEventListener("click",clickfun);
+
+function clickfun(){
+    document.querySelector(".mobile-menu").classList.toggle("mobile-menu-toggle")
+}
+>>>>>>> origin/get-shit-done

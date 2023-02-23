@@ -1,16 +1,50 @@
-fetch("https://drinks-df78.restdb.io/rest/drinks", {
-  method: "get",
-  headers: {
-    "x-api-key": "63ef53be478852088da683cf",
-  },
-})
-  .then((e) => e.json())
-  .then(dosomethin);
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get("id");
+console.log(id);
+if (id == null) {
+  fetch('https://drinks-df78.restdb.io/rest/drinks', {
+      method: "get",
+      headers: {
+        "x-api-key": "63ef53be478852088da683cf",
+      },
+    })
+      .then((e) => e.json())
+      .then(dosomethin);
+    
+    function dosomethin(data) {
+      data.forEach(showProducts);
+    }
 
-function dosomethin(data) {
-  data.forEach(showProducts);
+} else if(id != null) {
+  
+  fetch(`https://drinks-df78.restdb.io/rest/drinks?q={"$and": [{"smag": "${id}"}]}`, {
+    method: "get",
+    headers: {
+      "x-api-key": "63ef53be478852088da683cf",
+    },
+  })
+    .then((e) => e.json())
+    .then(dosomethin);
+  
+  function dosomethin(data) {
+    data.forEach(showProducts);
+  }
+} 
+
+
+
+document.querySelector(".sort").href =`productSite.html?id=Syrlig`; 
+
+function clickfun() {
+    
 }
 
+//https://drinks-df78.restdb.io/rest/drinks?q={"smag":"Syrlig"}
+
+//https://drinks-df78.restdb.io/rest/drinks?q={"smag" : {"$in" : ["Syrlig","Stærk"]}}
+
+// ?q={"$and": [{"smag": "Syrlig"}, {"smag": "Stærk"}]}
+// ?q={"$and": [{"smag": "Syrlig"}]}
 function showProducts(data) {
   console.log(data);
 
@@ -36,8 +70,8 @@ function showProducts(data) {
   }
 
   copy.querySelector(".ui-card").addEventListener("click", function () {
-    location.href = "product-page.html?q:name=" + data.name;
-  });
+    location.href = `product-page.html?id=${data.name}`;
+  });  
 
   copy.querySelector(".product-name").textContent = data.name;
   document.querySelector(".products").appendChild(copy);
